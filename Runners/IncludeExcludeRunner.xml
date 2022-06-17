@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
+
+<suite name="Basic Suite">
+    <test name="Basic Test1">
+        <classes>
+            <class name="Attributes.AlwaysRun">
+                <methods>
+                    <include name="failTest"/>
+                    <exclude name="dependantTest2"/>
+                </methods>
+            </class>
+        </classes>
+    </test>
+</suite>

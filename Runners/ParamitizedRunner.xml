@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
+
+<suite name="Basic Suite">
+    <test name="Basic Test1">
+        <parameter name="num1" value="5"/>
+        <parameter name="num2" value="3"/>
+        <parameter name="num3" value="8"/>
+
+        <classes>
+            <class name="AnnotationAttributes.ParametersAnnotation"/>
+        </classes>
+    </test>
+</suite>
